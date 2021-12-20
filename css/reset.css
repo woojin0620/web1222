@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Y_Spotlight'; /*눈누 이사만루*/
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'YdestreetL'; /*눈누 이드스트릿*/
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetL.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MaruBuri-Regular'; /*마루부리*/
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, form, fieldset, legend, textarea, input, select, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, input, select, textarea, button {
+  color: #000;
+  font-family: -apple-system, 'BlinkMacSystemFont', "Apple SD Gothic Neo","NanumGothic",   "Malgun Gothic", "ë§‘ì€ ê³ ë”•", helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+em, address {
+  font-style: normal;
+}
+
+strong, em, address {
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+select, textarea {
+  border: 0;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+html, body {
+  height: 100%;
+}
+
+.blind {
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0px, 0px, 0px, 0px);
+}
